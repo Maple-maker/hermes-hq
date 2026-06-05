@@ -1,9 +1,9 @@
 {
-  "default_agent": "jarvis",
+  "default_agent": "aegis",
   "agents": {
-    "jarvis": {
+    "aegis": {
       "description": "Personal AI Assistant — research, briefs, scheduling, notifications",
-      "path": ".opencode/agents/jarvis.md"
+      "path": ".opencode/agents/aegis.md"
     },
     "dev-lead": {
       "description": "Dev Team Captain — iOS, React Native, Python, App Store, code review",

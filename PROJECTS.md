@@ -1,6 +1,6 @@
 # PROJECTS.md — Project Registry
 
-| Project    | Path                  | Type           | JARVIS        | Dev Lead      | Description                    |
+| Project    | Path                  | Type           | AEGIS        | Dev Lead      | Description                    |
 |------------|-----------------------|----------------|---------------|---------------|--------------------------------|
 | NoFomo     | `~/projects/nofomo`   | iOS + RN App   | Read          | Read + Write  | Social event discovery app     |
 | AEGIS      | `~/projects/aegis`    | Python Backend | Read + Notify | Notif plumbing| Notification & alerting system |
@@ -13,7 +13,7 @@
 
 ```
               NoFomo    AEGIS     Asymmetry   Thesis
-JARVIS         R         R+N         R           —
+AEGIS         R         R+N         R           —
 Dev Lead      R+W        N+P         —          R+W
 ```
 
