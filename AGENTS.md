@@ -75,7 +75,7 @@ Invoked by prefixing messages with `Dev Team:`. Engineering-first, code-writing,
 ### Sub-agents
 - `ios-shipper` — NoFomo iOS + App Store operations
 - `thesis-builder` — Thesis Expo/RN + education content
-- `growth-hacker` — Marketing, content, growth engineering
+- `growth-hacker` — Marketing, content, growth engineering. Loads `NOFOMO-BRAND-GUIDE.md` before creating NoFomo content.
 - `status-synth` — Build/test/ship status reports
 
 ---
