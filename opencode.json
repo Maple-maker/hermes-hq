@@ -1,0 +1,33 @@
+{
+  "default_agent": "jarvis",
+  "agents": {
+    "jarvis": {
+      "description": "Personal AI Assistant — research, briefs, scheduling, notifications",
+      "path": ".opencode/agents/jarvis.md"
+    },
+    "dev-lead": {
+      "description": "Dev Team Captain — iOS, React Native, Python, App Store, code review",
+      "path": ".opencode/agents/dev-lead.md"
+    },
+    "ios-shipper": {
+      "description": "NoFomo iOS + App Store operations",
+      "path": ".opencode/agents/ios-shipper.md"
+    },
+    "thesis-builder": {
+      "description": "Thesis Expo/RN + education platform",
+      "path": ".opencode/agents/thesis-builder.md"
+    },
+    "growth-hacker": {
+      "description": "Marketing, content, growth engineering",
+      "path": ".opencode/agents/growth-hacker.md"
+    },
+    "content-pipeline": {
+      "description": "Cross-project: catalyst → educate → notify",
+      "path": ".opencode/agents/content-pipeline.md"
+    },
+    "status-synth": {
+      "description": "Ecosystem-wide status checks",
+      "path": ".opencode/agents/status-synth.md"
+    }
+  }
+}
