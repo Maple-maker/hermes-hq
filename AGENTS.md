@@ -106,4 +106,5 @@ JARVIS scans the world (markets, catalysts, research). Dev Lead turns findings i
 - Agent personas: `.opencode/agents/*.md`
 - Project registry: `PROJECTS.md`
 - OpenCode config: `opencode.json`
+- Sprint workflow: `SOP.md` (how Claude Code + Hermes work together)
 - This architecture guide: `AGENTS.md` (this file)
