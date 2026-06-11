@@ -10,7 +10,7 @@ Ensure seamless context transfer between coding sessions. When Jaiden finishes a
 | Project Name | Handoff File | Repo Path |
 |---|---|---|
 | NoFomo | `/opt/data/hermes-hq/handoffs/nofomo-handoff.md` | `/opt/data/nofomo/` |
-| BET | `/opt/data/hermes-hq/handoffs/bet-handoff.md` | (TBD) |
+| AERO | `/opt/data/hermes-hq/handoffs/bet-handoff.md` | (TBD) |
 | Thesis | `/opt/data/hermes-hq/handoffs/thesis-handoff.md` | (TBD) |
 | Name That Fault | `/opt/data/hermes-hq/handoffs/name-that-fault-handoff.md` | (TBD) |
 

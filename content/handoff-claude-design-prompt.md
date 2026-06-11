@@ -101,13 +101,13 @@ Context: (none)
 
 **Good handoff (right, green-tinted):**
 ```
-Title: "BET — Fault-finding DB for soldiers"
+Title: "AERO — Army Equipment Readiness Optimizer"
 Description: "Searchable database of equipment
 faults with NSN output. End vision: AR mobile
 app for real-time fault identification."
 Priority: 1 (High)
-Project: BET
-Context: See handoffs/bet-handoff.md
+Project: AERO
+Context: See handoffs/aero-handoff.md
 ```
 
 **Bottom quote (amber, italic):**
@@ -154,12 +154,12 @@ Context: See handoffs/bet-handoff.md
 > /start-gun
 
 📋 Reading task queue...
-→ Task #3: BET — Fault-finding DB
+→ Task #3: AERO — Fault-finding DB
 → Priority: 1 (High)
 → Status: pending
 
 📄 Reading handoff file...
-→ Project: BET
+→ Project: AERO
 → Context: West Point AERO paper
 → Acceptance: searchable DB, NSN output
 

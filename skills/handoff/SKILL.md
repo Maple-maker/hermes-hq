@@ -89,7 +89,7 @@ Tell Jaiden:
 - What happens next (Claude picks it up via `/start-gun` → `/relay`)
 
 Example:
-> "✅ Handed off: 'BET - Automated Evaluation and Repair Organizer' (Task #3, Priority 1). Claude will pick it up at the next session start via /start-gun."
+> "✅ Handed off: 'AERO — Army Equipment Readiness Optimizer' (Task #3, Priority 1). Claude will pick it up at the next session start via /start-gun."
 
 ## Baton Quality Standards
 
@@ -116,7 +116,7 @@ Before handing off, check if the project exists:
 | Project | Repo | Drive Folder Key |
 |---|---|---|
 | NoFomo | `/opt/data/nofomo/` | `nofomo` |
-| BET | (TBD) | `bet` |
+| AERO | (TBD) | `aero` |
 | Thesis | (TBD) | `thesis` |
 | Name That Fault | (TBD) | `name_that_fault` |
 

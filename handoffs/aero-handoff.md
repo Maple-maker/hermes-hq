@@ -1,7 +1,7 @@
-# AEGIS Handoff — BET
+# AEGIS Handoff — AERO
 ## Date: 2026-06-11
 
-## Project: BET (Automated Evaluation and Repair Organizer)
+## Project: AERO (Army Equipment Readiness Optimizer)
 
 ### Origin
 Concept originated from SE450 Applied Systems Design at West Point (April 2024).
@@ -13,7 +13,7 @@ Aircraft Evaluation and Repair Organizer — ruggedized tablet for UH-60 battle 
 in contested/austere environments. Uses RFID + QR code scanning to identify damaged components,
 retrieves locally-stored repair training videos. Biometric auth, 14hr battery, 1TB local storage.
 
-### Evolved Vision: BET
+### Evolved Vision: AERO
 Expanded from aircraft-specific to general fault-finding database for all military equipment.
 
 ### Core Features (v1)
@@ -55,9 +55,9 @@ Expanded from aircraft-specific to general fault-finding database for all milita
 
 ### Competitive Advantage vs AERO paper
 - Original AERO was UH-60 only, RFID/QR dependent, tablet-only
-- BET expands to ALL equipment types, uses AI/AR, cloud + mobile
-- AERO used pre-stored videos; BET generates dynamic repair guidance from TM content
-- AERO required physical QR codes on parts; BET uses visual AI identification
+- AERO expands to ALL equipment types, uses AI/AR, cloud + mobile
+- AERO used pre-stored videos; AERO generates dynamic repair guidance from TM content
+- AERO required physical QR codes on parts; AERO uses visual AI identification
 
 ### West Point Paper Reference
 Full final report stored at: /opt/data/cache/documents/doc_47054ed1936d_SE450_FTR_Final.docx

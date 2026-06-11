@@ -45,8 +45,8 @@ The `next` command returns a JSON object:
 ```json
 {
   "id": "3",
-  "project": "BET",
-  "title": "BET - Automated Evaluation and Repair Organizer",
+  "project": "AERO",
+  "title": "AERO — Army Equipment Readiness Optimizer",
   "description": "Searchable fault-finding database for soldiers...",
   "status": "pending",
   "priority": "1",

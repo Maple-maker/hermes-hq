@@ -54,7 +54,7 @@ See `/opt/data/cache/gdrive_folder_map.json` for the full map.
 Key folders:
 - `AEGIS_Workspace/` — root
 - `AEGIS_Workspace/Projects/NoFomo/` — NoFomo project files
-- `AEGIS_Workspace/Projects/BET/` — BET project files
+- `AEGIS_Workspace/Projects/BET/` — AERO project files
 - `AEGIS_Workspace/Handoffs/` — handoff documents
 - `AEGIS_Workspace/Outputs/` — scan outputs, reports
 
@@ -63,7 +63,7 @@ Key folders:
 | Project | Repo | Handoff |
 |---|---|---|
 | NoFomo | `/opt/data/nofomo/` | `handoffs/nofomo-handoff.md` |
-| BET | (TBD) | `handoffs/bet-handoff.md` |
+| AERO | (TBD) | `handoffs/bet-handoff.md` |
 | Thesis | (TBD) | `handoffs/thesis-handoff.md` |
 | Name That Fault | (TBD) | `handoffs/name-that-fault-handoff.md` |
 
