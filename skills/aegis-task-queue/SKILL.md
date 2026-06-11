@@ -1,19 +1,19 @@
 ---
 name: aegis-task-queue
-description: Use the AEGIS task queue system to pick up work tasks from Google Drive, work them, and update status. Run at the start of every coding session.
+description: Use the AEGIS task queue (RELAY system) to pick up work tasks from Google Drive, work them, and update status. Run at the start of every coding session.
 triggers:
   - "work on"
   - "coding session"
   - "pick up task"
   - "what's next"
   - "task queue"
----
+  - "relay"
 
-# AEGIS Task Queue — Skill
+# AEGIS Task Queue — Skill (RELAY System)
 
 ## Purpose
 
-The AEGIS task queue is a CSV file stored on Google Drive that acts as a shared task board between Hermes (the always-on assistant) and Claude Code (the coding agent). Hermes writes tasks. Claude picks them up, works them, and marks them complete.
+The RELAY system bridges Telegram → Google Drive → Claude Code. Hermes (via Telegram) writes tasks to a Google Drive CSV. Claude picks them up, works them, and marks them complete. This is the handoff layer between your ideas and execution.
 
 ## System Overview
 
