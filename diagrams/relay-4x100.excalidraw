@@ -1,0 +1,1046 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "hermes-agent",
+  "elements": [
+    {
+      "type": "text",
+      "id": "title",
+      "x": 150,
+      "y": 20,
+      "width": 700,
+      "height": 30,
+      "text": "The 4x100 Build Pipeline",
+      "fontSize": 24,
+      "fontFamily": 1,
+      "strokeColor": "#f5f5f5",
+      "textAlign": "center",
+      "originalText": "The 4x100 Build Pipeline",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "sub",
+      "x": 150,
+      "y": 52,
+      "width": 700,
+      "height": 20,
+      "text": "4 models. 4 legs. 4 baton passes. Zero context leaks.",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#888888",
+      "textAlign": "center",
+      "originalText": "4 models. 4 legs. 4 baton passes. Zero context leaks.",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "lane-0",
+      "x": 40,
+      "y": 90,
+      "width": 920,
+      "height": 80,
+      "backgroundColor": "#a78bfa",
+      "fillStyle": "solid",
+      "opacity": 0.06,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "ll-0",
+      "x": 50,
+      "y": 115,
+      "width": 120,
+      "height": 16,
+      "text": "LEG 1 \u2014 SCOPE",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#a78bfa",
+      "originalText": "LEG 1 \u2014 SCOPE",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "mb-0",
+      "x": 50,
+      "y": 135,
+      "width": 70,
+      "height": 22,
+      "backgroundColor": "#a78bfa33",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "tm-0",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tm-0",
+      "x": 55,
+      "y": 139,
+      "width": 60,
+      "height": 14,
+      "text": "Sonnet",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#a78bfa",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "mb-0",
+      "originalText": "Sonnet",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "lane-1",
+      "x": 40,
+      "y": 190,
+      "width": 920,
+      "height": 80,
+      "backgroundColor": "#4ade80",
+      "fillStyle": "solid",
+      "opacity": 0.06,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "ll-1",
+      "x": 50,
+      "y": 215,
+      "width": 120,
+      "height": 16,
+      "text": "LEG 2 \u2014 DESIGN",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#4ade80",
+      "originalText": "LEG 2 \u2014 DESIGN",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "mb-1",
+      "x": 50,
+      "y": 235,
+      "width": 70,
+      "height": 22,
+      "backgroundColor": "#4ade8033",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "tm-1",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tm-1",
+      "x": 55,
+      "y": 239,
+      "width": 60,
+      "height": 14,
+      "text": "Sonnet",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#4ade80",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "mb-1",
+      "originalText": "Sonnet",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "lane-2",
+      "x": 40,
+      "y": 290,
+      "width": 920,
+      "height": 80,
+      "backgroundColor": "#fb923c",
+      "fillStyle": "solid",
+      "opacity": 0.06,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "ll-2",
+      "x": 50,
+      "y": 315,
+      "width": 120,
+      "height": 16,
+      "text": "LEG 3 \u2014 BUILD",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#fb923c",
+      "originalText": "LEG 3 \u2014 BUILD",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "mb-2",
+      "x": 50,
+      "y": 335,
+      "width": 70,
+      "height": 22,
+      "backgroundColor": "#fb923c33",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "tm-2",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tm-2",
+      "x": 55,
+      "y": 339,
+      "width": 60,
+      "height": 14,
+      "text": "Opus",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#fb923c",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "mb-2",
+      "originalText": "Opus",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "lane-3",
+      "x": 40,
+      "y": 390,
+      "width": 920,
+      "height": 80,
+      "backgroundColor": "#f87171",
+      "fillStyle": "solid",
+      "opacity": 0.06,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "ll-3",
+      "x": 50,
+      "y": 415,
+      "width": 120,
+      "height": 16,
+      "text": "LEG 4 \u2014 REVIEW",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#f87171",
+      "originalText": "LEG 4 \u2014 REVIEW",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "mb-3",
+      "x": 50,
+      "y": 435,
+      "width": 70,
+      "height": 22,
+      "backgroundColor": "#f8717133",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "tm-3",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tm-3",
+      "x": 55,
+      "y": 439,
+      "width": 60,
+      "height": 14,
+      "text": "Fable",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#f87171",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "mb-3",
+      "originalText": "Fable",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "leg1",
+      "x": 160,
+      "y": 110,
+      "width": 180,
+      "height": 55,
+      "backgroundColor": "#a78bfa15",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "tleg1",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tleg1",
+      "x": 170,
+      "y": 118,
+      "width": 160,
+      "height": 39,
+      "text": "project-spec.md\nscope + value matrix\nGO/NO-GO gate",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#a78bfa",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "leg1",
+      "originalText": "project-spec.md\nscope + value matrix\nGO/NO-GO gate",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "leg2",
+      "x": 160,
+      "y": 210,
+      "width": 180,
+      "height": 55,
+      "backgroundColor": "#4ade8015",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "tleg2",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tleg2",
+      "x": 170,
+      "y": 218,
+      "width": 160,
+      "height": 39,
+      "text": "agents/ folder\nsub-agent team\n+ build plan",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#4ade80",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "leg2",
+      "originalText": "agents/ folder\nsub-agent team\n+ build plan",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "leg3",
+      "x": 160,
+      "y": 310,
+      "width": 180,
+      "height": 55,
+      "backgroundColor": "#fb923c15",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "tleg3",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tleg3",
+      "x": 170,
+      "y": 318,
+      "width": 160,
+      "height": 39,
+      "text": "working code\n+ build-log.md\n+ tests",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#fb923c",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "leg3",
+      "originalText": "working code\n+ build-log.md\n+ tests",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "leg4",
+      "x": 160,
+      "y": 410,
+      "width": 180,
+      "height": 55,
+      "backgroundColor": "#f8717115",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "tleg4",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tleg4",
+      "x": 170,
+      "y": 418,
+      "width": 160,
+      "height": 39,
+      "text": "review-report.md\nsecurity scan\n+ patches",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#f87171",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "leg4",
+      "originalText": "review-report.md\nsecurity scan\n+ patches",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "ba-0",
+      "x": 350,
+      "y": 135,
+      "width": 0,
+      "height": 75,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          75
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#a78bfa",
+      "strokeWidth": 2
+    },
+    {
+      "type": "rectangle",
+      "id": "baton-0",
+      "x": 370,
+      "y": 155,
+      "width": 130,
+      "height": 30,
+      "backgroundColor": "#a78bfa22",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "strokeColor": "#a78bfa",
+      "strokeWidth": 1.5,
+      "boundElements": [
+        {
+          "id": "tbaton-0",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tbaton-0",
+      "x": 376,
+      "y": 162,
+      "width": 118,
+      "height": 16,
+      "text": "project-spec.md",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#a78bfa",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "baton-0",
+      "originalText": "project-spec.md",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "ba-1",
+      "x": 350,
+      "y": 235,
+      "width": 0,
+      "height": 75,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          75
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#4ade80",
+      "strokeWidth": 2
+    },
+    {
+      "type": "rectangle",
+      "id": "baton-1",
+      "x": 370,
+      "y": 255,
+      "width": 130,
+      "height": 30,
+      "backgroundColor": "#4ade8022",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "strokeColor": "#4ade80",
+      "strokeWidth": 1.5,
+      "boundElements": [
+        {
+          "id": "tbaton-1",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tbaton-1",
+      "x": 376,
+      "y": 262,
+      "width": 118,
+      "height": 16,
+      "text": "agents/*.md + plan",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#4ade80",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "baton-1",
+      "originalText": "agents/*.md + plan",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "ba-2",
+      "x": 350,
+      "y": 335,
+      "width": 0,
+      "height": 75,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          75
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#fb923c",
+      "strokeWidth": 2
+    },
+    {
+      "type": "rectangle",
+      "id": "baton-2",
+      "x": 370,
+      "y": 355,
+      "width": 130,
+      "height": 30,
+      "backgroundColor": "#fb923c22",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "strokeColor": "#fb923c",
+      "strokeWidth": 1.5,
+      "boundElements": [
+        {
+          "id": "tbaton-2",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tbaton-2",
+      "x": 376,
+      "y": 362,
+      "width": 118,
+      "height": 16,
+      "text": "code + build-log.md",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#fb923c",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "baton-2",
+      "originalText": "code + build-log.md",
+      "autoResize": true
+    },
+    {
+      "type": "diamond",
+      "id": "gate-0",
+      "x": 620,
+      "y": 115,
+      "width": 50,
+      "height": 50,
+      "backgroundColor": "#60a5fa33",
+      "fillStyle": "solid",
+      "strokeColor": "#60a5fa",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "tgate-0",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tgate-0",
+      "x": 628,
+      "y": 130,
+      "width": 34,
+      "height": 20,
+      "text": "GATE",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#60a5fa",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "gate-0",
+      "originalText": "GATE",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "gl-0",
+      "x": 610,
+      "y": 167,
+      "width": 70,
+      "height": 24,
+      "text": "Jaiden\napproves spec",
+      "fontSize": 9,
+      "fontFamily": 1,
+      "strokeColor": "#60a5fa",
+      "textAlign": "center",
+      "originalText": "Jaiden\napproves spec",
+      "autoResize": true
+    },
+    {
+      "type": "diamond",
+      "id": "gate-1",
+      "x": 620,
+      "y": 415,
+      "width": 50,
+      "height": 50,
+      "backgroundColor": "#60a5fa33",
+      "fillStyle": "solid",
+      "strokeColor": "#60a5fa",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "tgate-1",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "tgate-1",
+      "x": 628,
+      "y": 430,
+      "width": 34,
+      "height": 20,
+      "text": "GATE",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#60a5fa",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "gate-1",
+      "originalText": "GATE",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "gl-1",
+      "x": 610,
+      "y": 467,
+      "width": 70,
+      "height": 24,
+      "text": "Jaiden\napproves merge",
+      "fontSize": 9,
+      "fontFamily": 1,
+      "strokeColor": "#60a5fa",
+      "textAlign": "center",
+      "originalText": "Jaiden\napproves merge",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "go",
+      "x": 645,
+      "y": 165,
+      "width": 0,
+      "height": 45,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          45
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#4ade80",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t-go",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t-go",
+      "x": 620,
+      "y": 180,
+      "width": 50,
+      "height": 14,
+      "text": "GO",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#4ade80",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "go",
+      "originalText": "GO",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "nogo",
+      "x": 670,
+      "y": 140,
+      "width": 100,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#f87171",
+      "strokeWidth": 1.5,
+      "strokeStyle": "dashed",
+      "boundElements": [
+        {
+          "id": "t-nogo",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t-nogo",
+      "x": 700,
+      "y": 133,
+      "width": 60,
+      "height": 14,
+      "text": "NO-GO",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#f87171",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "nogo",
+      "originalText": "NO-GO",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "nogo-end",
+      "x": 775,
+      "y": 128,
+      "width": 80,
+      "height": 24,
+      "text": "Race ends.\nCheap lesson.",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#f87171",
+      "textAlign": "center",
+      "originalText": "Race ends.\nCheap lesson.",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "warn",
+      "x": 700,
+      "y": 240,
+      "width": 250,
+      "height": 65,
+      "backgroundColor": "#f8717115",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "strokeColor": "#f87171",
+      "strokeWidth": 1.5,
+      "boundElements": [
+        {
+          "id": "t-warn",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t-warn",
+      "x": 710,
+      "y": 248,
+      "width": 230,
+      "height": 50,
+      "text": "Main session MUST run on Fable\nSub-agents cannot exceed parent cost tier\nOpus on Sonnet = Sonnet (silent fallback)",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#f87171",
+      "textAlign": "left",
+      "verticalAlign": "middle",
+      "containerId": "warn",
+      "originalText": "Main session MUST run on Fable\nSub-agents cannot exceed parent cost tier\nOpus on Sonnet = Sonnet (silent fallback)",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "ptitle",
+      "x": 700,
+      "y": 330,
+      "width": 250,
+      "height": 16,
+      "text": "5 DESIGN PRINCIPLES",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#f5f5f5",
+      "originalText": "5 DESIGN PRINCIPLES",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "p-0",
+      "x": 700,
+      "y": 350,
+      "width": 250,
+      "height": 16,
+      "text": "1. Leg 1 is a real gate \u2014 bad ideas die cheap",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#888888",
+      "originalText": "1. Leg 1 is a real gate \u2014 bad ideas die cheap",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "p-1",
+      "x": 700,
+      "y": 370,
+      "width": 250,
+      "height": 16,
+      "text": "2. 2 human checkpoints \u2014 plan + review only",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#888888",
+      "originalText": "2. 2 human checkpoints \u2014 plan + review only",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "p-2",
+      "x": 700,
+      "y": 390,
+      "width": 250,
+      "height": 16,
+      "text": "3. Lane discipline \u2014 no leg re-litigates upstream",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#888888",
+      "originalText": "3. Lane discipline \u2014 no leg re-litigates upstream",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "p-3",
+      "x": 700,
+      "y": 410,
+      "width": 250,
+      "height": 16,
+      "text": "4. Log split times \u2014 tokens per leg, always",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#888888",
+      "originalText": "4. Log split times \u2014 tokens per leg, always",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "p-4",
+      "x": 700,
+      "y": 430,
+      "width": 250,
+      "height": 16,
+      "text": "5. Walk before sprint \u2014 gun + Leg 1 first",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#888888",
+      "originalText": "5. Walk before sprint \u2014 gun + Leg 1 first",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "finish",
+      "x": 880,
+      "y": 415,
+      "width": 60,
+      "height": 50,
+      "backgroundColor": "#4ade8022",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "strokeColor": "#4ade80",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t-finish",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t-finish",
+      "x": 888,
+      "y": 428,
+      "width": 44,
+      "height": 24,
+      "text": "FINISH",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#4ade80",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "finish",
+      "originalText": "FINISH",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "to-gate2",
+      "x": 350,
+      "y": 435,
+      "width": 270,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          270,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#f87171",
+      "strokeWidth": 2
+    },
+    {
+      "type": "arrow",
+      "id": "gate2-finish",
+      "x": 670,
+      "y": 440,
+      "width": 210,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          210,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#4ade80",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t-approved",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t-approved",
+      "x": 740,
+      "y": 425,
+      "width": 70,
+      "height": 14,
+      "text": "APPROVED",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#4ade80",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "gate2-finish",
+      "originalText": "APPROVED",
+      "autoResize": true
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#0a0a0a"
+  }
+}
