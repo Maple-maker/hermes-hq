@@ -1,0 +1,77 @@
+name: Sync to AEGIS Vault
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'handoffs/**'
+      - 'content/**'
+      - 'skills/**'
+      - 'AGENTS.md'
+      - 'PROJECTS.md'
+      - 'SOP.md'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure rclone
+        env:
+          RCLONE_CONFIG_GDRIVE_TYPE: drive
+          RCLONE_CONFIG_GDRIVE_SCOPE: drive
+          RCLONE_CONFIG_GDRIVE_TOKEN: ${{ secrets.GDRIVE_TOKEN }}
+          RCLONE_CONFIG_GDRIVE_ROOT_FOLDER_ID: 1H4QDzKCq7lN_6PS4WHKDCRBcpjBSra2d
+        run: |
+          mkdir -p ~/.config/rclone
+          rclone config create gdrive drive scope drive "root_folder_id" "1H4QDzKCq7lN_6PS4WHKDCRBcpjBSra2d" --obfuscate
+          # The token is passed via config; rclone picks it from env in CI
+
+      - name: Sync handoffs → Vault/Handoffs
+        run: |
+          rclone sync ./handoffs gdrive:1H4QDzKCq7lN_6PS4WHKDCRBcpjBSra2d/Handoffs/ \
+            --create-empty-src-dirs \
+            --metadata \
+            -v
+
+      - name: Sync content → Vault/Content
+        run: |
+          rclone sync ./content gdrive:1H4QDzKCq7lN_6PS4WHKDCRBcpjBSra2d/Content/ \
+            --create-empty-src-dirs \
+            --metadata \
+            -v
+
+      - name: Sync skills → Vault/Skills
+        run: |
+          rclone sync ./skills gdrive:1H4QDzKCq7lN_6PS4WHKDCRBcpjBSra2d/Skills/ \
+            --create-empty-src-dirs \
+            --metadata \
+            -v
+
+      - name: Sync root docs → Vault
+        run: |
+          for f in AGENTS.md PROJECTS.md SOP.md; do
+            if [ -f "$f" ]; then
+              rclone copy "$f" gdrive:1H4QDzKCq7lN_6PS4WHKDCRBcpjBSra2d/
+            fi
+          done
+
+      - name: Sync multi-agent vault
+        run: |
+          if [ -d "./multi-agent/vault" ]; then
+            rclone sync ./multi-agent/vault gdrive:1H4QDzKCq7lN_6PS4WHKDCRBcpjBSra2d/Vault/ \
+              --create-empty-src-dirs \
+              --metadata \
+              -v
+          fi
+
+      - name: Log sync
+        run: |
+          echo "## Sync Complete $(date -u)" >> sync-log.md
+          echo "- Branch: ${{ github.ref_name }}" >> sync-log.md
+          echo "- Commit: ${{ github.sha }}" >> sync-log.md
+          echo "- Trigger: ${{ github.event_name }}" >> sync-log.md
+          rclone copy sync-log.md gdrive:1H4QDzKCq7lN_6PS4WHKDCRBcpjBSra2d/Content/
