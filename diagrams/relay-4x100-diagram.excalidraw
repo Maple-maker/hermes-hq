@@ -1,0 +1,916 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "hermes-agent",
+  "elements": [
+    {
+      "type": "rectangle",
+      "id": "bg",
+      "x": 0,
+      "y": 0,
+      "width": 1400,
+      "height": 900,
+      "strokeColor": "#2a2a4a",
+      "backgroundColor": "#1a1a2e",
+      "fillStyle": "solid",
+      "strokeWidth": 0,
+      "roughness": 0,
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "x": 40,
+      "y": 30,
+      "width": 600,
+      "height": 32,
+      "text": "RELAY \u2014 The 4\u00d7100 Build Pipeline",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "RELAY \u2014 The 4\u00d7100 Build Pipeline",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "x": 40,
+      "y": 68,
+      "width": 700,
+      "height": 18,
+      "text": "Each leg runs a different model. Each baton is a structured file. No context leaks.",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#888899",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "Each leg runs a different model. Each baton is a structured file. No context leaks.",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "lane_0",
+      "x": 40,
+      "y": 120,
+      "width": 1320,
+      "height": 130,
+      "strokeColor": "#a78bfa",
+      "backgroundColor": "rgba(167,139,250,0.06)",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 0,
+      "opacity": 30,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "t_lane_0",
+      "x": 52,
+      "y": 128,
+      "width": 257.4,
+      "height": 17,
+      "text": "LEG 1  \u2022  Sonnet  \u2014  Scope + Spec",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#a78bfa",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "LEG 1  \u2022  Sonnet  \u2014  Scope + Spec",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "lane_1",
+      "x": 40,
+      "y": 280,
+      "width": 1320,
+      "height": 130,
+      "strokeColor": "#a78bfa",
+      "backgroundColor": "rgba(167,139,250,0.04)",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 0,
+      "opacity": 30,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "t_lane_1",
+      "x": 52,
+      "y": 288,
+      "width": 296.4,
+      "height": 17,
+      "text": "LEG 2  \u2022  Sonnet  \u2014  Agent Team Design",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#a78bfa",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "LEG 2  \u2022  Sonnet  \u2014  Agent Team Design",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "lane_2",
+      "x": 40,
+      "y": 440,
+      "width": 1320,
+      "height": 130,
+      "strokeColor": "#fb923c",
+      "backgroundColor": "rgba(251,146,60,0.06)",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 0,
+      "opacity": 30,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "t_lane_2",
+      "x": 52,
+      "y": 448,
+      "width": 187.2,
+      "height": 17,
+      "text": "LEG 3  \u2022  Opus  \u2014  Build",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#fb923c",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "LEG 3  \u2022  Opus  \u2014  Build",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "lane_3",
+      "x": 40,
+      "y": 600,
+      "width": 1320,
+      "height": 130,
+      "strokeColor": "#f87171",
+      "backgroundColor": "rgba(248,113,113,0.06)",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 0,
+      "opacity": 30,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "t_lane_3",
+      "x": 52,
+      "y": 608,
+      "width": 288.59999999999997,
+      "height": 17,
+      "text": "LEG 4  \u2022  Fable  \u2014  Review + Security",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#f87171",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "LEG 4  \u2022  Fable  \u2014  Review + Security",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "leg_box_0",
+      "x": 80,
+      "y": 145,
+      "width": 160,
+      "height": 80,
+      "strokeColor": "#a78bfa",
+      "backgroundColor": "rgba(167,139,250,0.12)",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "t_leg_box_0",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_leg_box_0",
+      "x": 90,
+      "y": 177,
+      "width": 140,
+      "height": 20,
+      "text": "Leg 1",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "strokeColor": "#a78bfa",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "leg_box_0",
+      "originalText": "Leg 1",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "leg_box_1",
+      "x": 100,
+      "y": 305,
+      "width": 160,
+      "height": 80,
+      "strokeColor": "#a78bfa",
+      "backgroundColor": "rgba(167,139,250,0.10)",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "t_leg_box_1",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_leg_box_1",
+      "x": 110,
+      "y": 337,
+      "width": 140,
+      "height": 20,
+      "text": "Leg 2",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "strokeColor": "#a78bfa",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "leg_box_1",
+      "originalText": "Leg 2",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "leg_box_2",
+      "x": 120,
+      "y": 465,
+      "width": 160,
+      "height": 80,
+      "strokeColor": "#fb923c",
+      "backgroundColor": "rgba(251,146,60,0.12)",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "t_leg_box_2",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_leg_box_2",
+      "x": 130,
+      "y": 497,
+      "width": 140,
+      "height": 20,
+      "text": "Leg 3",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "strokeColor": "#fb923c",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "leg_box_2",
+      "originalText": "Leg 3",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "leg_box_3",
+      "x": 140,
+      "y": 625,
+      "width": 160,
+      "height": 80,
+      "strokeColor": "#f87171",
+      "backgroundColor": "rgba(248,113,113,0.12)",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "t_leg_box_3",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_leg_box_3",
+      "x": 150,
+      "y": 657,
+      "width": 140,
+      "height": 20,
+      "text": "Leg 4",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "strokeColor": "#f87171",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "leg_box_3",
+      "originalText": "Leg 4",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "baton_0",
+      "x": 250,
+      "y": 185,
+      "width": -160,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -160,
+          0
+        ]
+      ],
+      "strokeColor": "#a78bfa",
+      "strokeWidth": 3,
+      "roughness": 1,
+      "endArrowhead": "arrow",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "baton_label_0",
+      "x": 90,
+      "y": 163,
+      "width": 160,
+      "height": 17,
+      "text": "\ud83c\udfc3 project-spec.md",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#a78bfa",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "\ud83c\udfc3 project-spec.md",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "baton_1",
+      "x": 270,
+      "y": 345,
+      "width": -160,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -160,
+          0
+        ]
+      ],
+      "strokeColor": "#a78bfa",
+      "strokeWidth": 3,
+      "roughness": 1,
+      "endArrowhead": "arrow",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "baton_label_1",
+      "x": 110,
+      "y": 323,
+      "width": 160,
+      "height": 17,
+      "text": "\ud83c\udfc3 agents/ + build-plan.md",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#a78bfa",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "\ud83c\udfc3 agents/ + build-plan.md",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "baton_2",
+      "x": 290,
+      "y": 505,
+      "width": -160,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -160,
+          0
+        ]
+      ],
+      "strokeColor": "#fb923c",
+      "strokeWidth": 3,
+      "roughness": 1,
+      "endArrowhead": "arrow",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "baton_label_2",
+      "x": 130,
+      "y": 483,
+      "width": 160,
+      "height": 17,
+      "text": "\ud83c\udfc3 code + build-log.md",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#fb923c",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "\ud83c\udfc3 code + build-log.md",
+      "autoResize": true
+    },
+    {
+      "type": "diamond",
+      "id": "gate1",
+      "x": 1100,
+      "y": 140,
+      "width": 140,
+      "height": 70,
+      "strokeColor": "#60a5fa",
+      "backgroundColor": "rgba(96,165,250,0.1)",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "t_gate1",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_gate1",
+      "x": 1110,
+      "y": 169,
+      "width": 120,
+      "height": 17,
+      "text": "GO / NO-GO?",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#60a5fa",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "gate1",
+      "originalText": "GO / NO-GO?",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "gate1_label",
+      "x": 1090,
+      "y": 215,
+      "width": 160,
+      "height": 16,
+      "text": "Human Gate 1",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#60a5fa",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "Human Gate 1",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "gate1_to_leg2",
+      "x": 1170,
+      "y": 210,
+      "width": 0,
+      "height": 70,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "strokeColor": "#60a5fa",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "endArrowhead": "arrow",
+      "opacity": 80
+    },
+    {
+      "type": "diamond",
+      "id": "gate2",
+      "x": 1100,
+      "y": 620,
+      "width": 140,
+      "height": 70,
+      "strokeColor": "#4ade80",
+      "backgroundColor": "rgba(74,222,128,0.1)",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "t_gate2",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_gate2",
+      "x": 1110,
+      "y": 649,
+      "width": 120,
+      "height": 17,
+      "text": "APPROVE?",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#4ade80",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "gate2",
+      "originalText": "APPROVE?",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "gate2_label",
+      "x": 1090,
+      "y": 695,
+      "width": 160,
+      "height": 16,
+      "text": "Human Gate 2",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#4ade80",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "Human Gate 2",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "leg4_to_gate2",
+      "x": 310,
+      "y": 665,
+      "width": 790,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          790,
+          0
+        ]
+      ],
+      "strokeColor": "#f87171",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "endArrowhead": "arrow",
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "gate2_to_merge",
+      "x": 1170,
+      "y": 690,
+      "width": 0,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "strokeColor": "#4ade80",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "endArrowhead": "arrow",
+      "opacity": 80
+    },
+    {
+      "type": "rectangle",
+      "id": "merge",
+      "x": 1090,
+      "y": 760,
+      "width": 160,
+      "height": 50,
+      "strokeColor": "#4ade80",
+      "backgroundColor": "rgba(74,222,128,0.15)",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "t_merge",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_merge",
+      "x": 1100,
+      "y": 778,
+      "width": 140,
+      "height": 18,
+      "text": "\u2705 MERGE",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#4ade80",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "merge",
+      "originalText": "\u2705 MERGE",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "nogo",
+      "x": 1100,
+      "y": 175,
+      "width": -80,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -80,
+          0
+        ]
+      ],
+      "strokeColor": "#f87171",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "strokeStyle": "dashed",
+      "endArrowhead": "arrow",
+      "opacity": 60
+    },
+    {
+      "type": "text",
+      "id": "nogo_label",
+      "x": 930,
+      "y": 162,
+      "width": 150,
+      "height": 16,
+      "text": "\u274c Race ends (cheap)",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#f87171",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "\u274c Race ends (cheap)",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "ceiling_box",
+      "x": 40,
+      "y": 770,
+      "width": 600,
+      "height": 60,
+      "strokeColor": "#fb923c",
+      "backgroundColor": "rgba(251,146,60,0.08)",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "ceiling_text",
+      "x": 55,
+      "y": 782,
+      "width": 580,
+      "height": 17,
+      "text": "\u26a0\ufe0f  MODEL CEILING: Main session MUST run on Fable. Sub-agents cannot exceed parent tier.",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#fb923c",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "\u26a0\ufe0f  MODEL CEILING: Main session MUST run on Fable. Sub-agents cannot exceed parent tier.",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "princ_title",
+      "x": 780,
+      "y": 760,
+      "width": 300,
+      "height": 18,
+      "text": "5 Design Principles:",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "5 Design Principles:",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "princ_0",
+      "x": 780,
+      "y": 782,
+      "width": 400,
+      "height": 16,
+      "text": "1. Leg 1 is a real gate \u2014 bad ideas die cheap",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#888899",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "1. Leg 1 is a real gate \u2014 bad ideas die cheap",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "princ_1",
+      "x": 780,
+      "y": 802,
+      "width": 400,
+      "height": 16,
+      "text": "2. Two human checkpoints, no more",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#888899",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "2. Two human checkpoints, no more",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "princ_2",
+      "x": 780,
+      "y": 822,
+      "width": 400,
+      "height": 16,
+      "text": "3. Enforce lane discipline \u2014 no scope re-litigation",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#888899",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "3. Enforce lane discipline \u2014 no scope re-litigation",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "princ_3",
+      "x": 780,
+      "y": 842,
+      "width": 400,
+      "height": 16,
+      "text": "4. Log split times \u2014 token costs per leg",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#888899",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "4. Log split times \u2014 token costs per leg",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "princ_4",
+      "x": 780,
+      "y": 862,
+      "width": 400,
+      "height": 16,
+      "text": "5. Walk before sprint \u2014 solid batons first",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#888899",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "5. Walk before sprint \u2014 solid batons first",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "start_gun",
+      "x": 40,
+      "y": 165,
+      "width": 30,
+      "height": 40,
+      "strokeColor": "#a78bfa",
+      "backgroundColor": "#a78bfa",
+      "fillStyle": "solid",
+      "strokeWidth": 0,
+      "roughness": 1,
+      "opacity": 80,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "start_gun_label",
+      "x": 25,
+      "y": 215,
+      "width": 60,
+      "height": 15,
+      "text": "/start-gun",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#a78bfa",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "/start-gun",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "finish",
+      "x": 1330,
+      "y": 640,
+      "width": 30,
+      "height": 50,
+      "strokeColor": "#4ade80",
+      "backgroundColor": "#4ade80",
+      "fillStyle": "solid",
+      "strokeWidth": 0,
+      "roughness": 1,
+      "opacity": 80,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "finish_label",
+      "x": 1305,
+      "y": 700,
+      "width": 80,
+      "height": 15,
+      "text": "/finish-line",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#4ade80",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "originalText": "/finish-line",
+      "autoResize": true
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#1a1a2e",
+    "gridSize": null
+  }
+}
