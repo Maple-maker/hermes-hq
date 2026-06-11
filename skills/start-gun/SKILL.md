@@ -1,28 +1,27 @@
 ---
 name: start-gun
-description: Run at the start of every Claude Code session. Pulls tasks from the AEGIS task queue (Google Drive), picks up where the last session left off via handoff files, and begins working. This is the entry point for all coding sessions.
-triggers:
-  - "start"
-  - "begin session"
-  - "what should I work on"
-  - "new session"
-  - "start gun"
-  - "startgun"
-  - "/start-gun"
+description: "Run at the start of every Claude Code session. Pulls tasks from the Google Drive task queue, reads handoff context, and begins working. Triggers /relay for new builds or continues existing work. This is the starter's pistol."
+version: 1.0.0
+author: Hermes Agent
+license: MIT
+metadata:
+  hermes:
+    tags: [start-gun, session-bootstrap, task-queue, relay, handoff]
+    related_skills: [handoff, relay]
 ---
 
-# /start-gun — Session Bootstrap Skill
+# /start-gun — Session Bootstrap (Starter's Pistol)
 
 ## Purpose
 
 This is the **first thing Claude Code runs** at the start of every coding session. It:
 
-1. Checks the AEGIS task queue (Google Drive CSV) for pending tasks
+1. Checks the Google Drive task queue for pending tasks
 2. Reads the latest handoff file for context
-3. Checks recent git history for the project
-4. Identifies what to work on and begins
+3. Checks recent git history
+4. Decides: run `/relay` for new builds, or continue existing work
 
-The name "start gun" = the starter's pistol. When this fires, the session begins.
+When this fires, the session begins.
 
 ---
 
