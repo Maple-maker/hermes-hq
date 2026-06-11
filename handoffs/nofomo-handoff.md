@@ -1,61 +1,52 @@
 # AEGIS Handoff — NoFomo
-## Date: 2026-06-05
+## Date: 2026-06-12
 
----
+## What Was Done This Session
+- [x] Onboarding sequence — Wealthsimple-style 4-page flow with auto-rotating teaser cards
+- [x] Auth system — split sign-up/sign-in modes, Supabase error handling, email-confirmation, Apple Sign-In
+- [x] Notification primer — one-time permission ask after auth
+- [x] SF Symbol bug fix — invalid antenna icon replaced
+- [x] Custom Radar iOS — full thesis builder (editor, list, detail, templates, Radar tab)
+- [x] Custom Radar server — routes mounted, Supabase migration applied, push route committed
+- [x] Verified — clean build, simulator run, secret scan clean
 
-## What Was Done (Recent Sessions)
-- Connected ERA Context MCP for live financial data (24 accounts, tools working)
-- Created FINANCIAL_SNAPSHOT.md with LES + ERA data
-- Updated dashboard API spec with /api/v1/financials and /api/v1/era/* endpoints
-- Added VPS operations Section 8 to config.yaml (crash prevention)
-- Rebuilt CSV with 109 army equipment rows linked to Google Drive images
-- Uploaded 27 real equipment photos to Google Drive (Wikimedia Commons)
-- Set up Claude Code course tracker (6 courses, Mon/Wed/Fri 18:00 UTC checks)
-- AnyAPI free tier configured, sequential council + retry logic implemented
-- iOS app stripped of 399 lines mock data, calls 72.61.206.167:3002/radar
-- Frontend rework handoff spec written (Max Johnson 13 design tips integrated)
-- Dashboard API spec written (FastAPI port 3003)
-- AEGIS handoff system created (template, prompt, SOP)
-
-## Last Commit
+Last commit:
 ```
-cce677a — add AEGIS handoff system: template, prompt, SOP, project registry
+4d4441d — feat: onboarding redesign + custom radar thesis builder (52 files, +6,721/−313)
 ```
 
 ## What's Next (Priority Order)
-1. **Build Dashboard API** — FastAPI on port 3003 per spec at `/opt/data/hermes-hq/tasks/aegis-dashboard-api-spec.md`. This is the read-only aggregation layer. Hand off to Claude Code.
-2. **iOS app clean build verification** — User still reports build failures. All code fixes committed but needs clean build confirmation. Debug chain: clean build folder, remove derived data, fresh sim.
-3. **Wire up Jelly Signals module** — Kalshi, CoinGecko, Binance integrations + orchestration layer + scoring (0-100). Depends on dashboard API for signal display.
+1. **Merge PR #2** — `gh pr merge 2 --merge` (triggers Vercel auto-deploy)
+2. **Wire radar→thesis notify hook** — fire-and-forget call to `POST /thesis/notify-check` after `radar_opportunities` upsert in `radar.ts`
+3. **Set Vercel env vars** — `INTERNAL_BASE_URL` / `NOTIFY_URL`, verify templates endpoint
+4. **End-to-end thesis verification** — full flow from editor → DB → match → push → RLS
+5. **Physical device pass** — real Apple Sign-In + APNs
+6. **Server-side thesis limit** — enforce 1-active cap in API or Supabase policy
 
 ## Blockers
-- **iOS build failures** — User can't get clean build. May be Xcode cache issue or code signing. Needs debugging session.
-- **Supabase service role key missing** — Dashboard API can't write opportunities. Get from supabase dashboard.
-- **NoFomo TS server port conflict** — Shares port 3001 with Hermes gateway. Needs port change to 3004 or consolidation.
+- None
 
 ## Key Decisions
-- **AnyAPI over OpenRouter** — Billing issue on OpenRouter. AnyAPI free tier works for multi-model access.
-- **Dashboard API separate from NoFomo server** — Read-only on port 3003, doesn't touch the radar pipeline.
-- **Two-server architecture maintained** — TypeScript (3001) for LLM council, Python (3002) for fast rule-based radar. Dashboard (3003) for read-only aggregation.
-- **Superpowers for new projects** — brainstorm → plan → TDD build → review → commit.
+- Free tier: 1 active thesis (client-side cap, needs backend enforcement)
+- Notification primer: gated by `@AppStorage("hasSeenNotificationPrimer")`
+- PR #2 merge triggers Vercel auto-deploy
 
-## Files Modified This Session
-| File | Change Summary |
-|---|---|
-| `/opt/data/FINANCIAL_SNAPSHOT.md` | Created — LES May 2026 + ERA balances |
-| `/opt/data/hermes-hq/tasks/aegis-dashboard-api-spec.md` | Added financials + ERA endpoints |
-| `/opt/data/hermes-hq/handoffs/` | Created — template, prompt, SOP |
-| `/opt/data/config.yaml` | VPS operations Section 8 |
+## Files Modified
+| File | Change |
+|------|--------|
+| `No-Fomo/NoFomi/OnboardingView.swift` | Wealthsimple-style redesign |
+| `No-Fomo/NoFomi/AuthView.swift` | Split sign-up/sign-in modes |
+| `No-Fomo/NoFomi/NotificationPrimerView.swift` | New file — permission primer |
+| `No-Fomo/NoFomi/RadarView.swift` | New file — thesis list |
+| `No-Fomo/NoFomi/ThesisDetailView.swift` | New file — thesis detail |
+| `No-Fomo/NoFomi/ThesisEditorView.swift` | New file — 4-step editor |
+| `NoFomo/NoFomo/server/routes/thesis.ts` | New file — thesis API routes |
+| `NoFomo/NoFomo/server/routes/radar.ts` | Modified — needs notify hook |
+| Multiple | Supabase migration, push route, signal expansion |
 
 ## Environment / Context
-- **Branch:** main (all repos)
-- **Servers:** 3001 (TS gateway, PM2), 3002 (Python MVP, PM2), 3003 (dashboard — not yet built)
-- **ERA Context:** Connected at https://context.era.app — working
-- **ElevenLabs TTS:** Connected, "aegis voice mkv" active
-- **API keys:** AnyAPI (free tier), Brave, ElevenLabs — all in .env
-- **Supabase:** URL configured, missing service role key
-
-## Notes for Next Session
-- The dashboard API spec is complete and ready for Claude Code handoff
-- The iOS app needs a clean build debugging session — this has been blocked for a while
-- Jelly Signals content from YouTube video (Jelly Cubes) mapped to NoFomo stack — 5 new integrations identified
-- User's next pay: ~$2,779.31 on the 15th (semimonthly)
+- **Branch:** `feat/session-1-discovery-and-ui`
+- **PR:** [#2](https://github.com/Maple-maker/No-Fomo/pull/2) — OPEN
+- **Servers:** port 3001 (TS), port 3002 (Python MVP)
+- **Supabase:** `user_theses` + `thesis_matches` tables migrated, RLS enabled
+- **Build:** clean on xcodebuild
