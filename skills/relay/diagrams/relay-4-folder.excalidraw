@@ -1,0 +1,507 @@
+{
+ "type": "excalidraw",
+ "version": 2,
+ "source": "hermes-relay",
+ "elements": [
+  {
+   "type": "text",
+   "id": "t1",
+   "x": 131,
+   "y": 40,
+   "text": "THE PROJECT FOLDER  \u2014  one workspace per build",
+   "fontSize": 26,
+   "fontFamily": 1,
+   "strokeColor": "#1e1e1e",
+   "textAlign": "center",
+   "originalText": "THE PROJECT FOLDER  \u2014  one workspace per build",
+   "autoResize": true
+  },
+  {
+   "type": "text",
+   "id": "t2",
+   "x": 164,
+   "y": 80,
+   "text": "every leg writes into its own subfolder. colour = the leg that owns it.",
+   "fontSize": 15,
+   "fontFamily": 1,
+   "strokeColor": "#5c5c5c",
+   "textAlign": "center",
+   "originalText": "every leg writes into its own subfolder. colour = the leg that owns it.",
+   "autoResize": true
+  },
+  {
+   "type": "rectangle",
+   "id": "root",
+   "x": 80,
+   "y": 120,
+   "width": 320,
+   "height": 56,
+   "backgroundColor": "#f1f3f5",
+   "fillStyle": "solid",
+   "strokeColor": "#868e96",
+   "strokeWidth": 2,
+   "roundness": {
+    "type": 3
+   },
+   "label": {
+    "text": "relay/projects/<id>/",
+    "fontSize": 19,
+    "fontFamily": 1,
+    "strokeColor": "#1e1e1e"
+   }
+  },
+  {
+   "type": "arrow",
+   "id": "spine",
+   "x": 112,
+   "y": 176,
+   "width": 0,
+   "height": 402,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     402
+    ]
+   ],
+   "strokeColor": "#868e96",
+   "strokeWidth": 2,
+   "endArrowhead": null,
+   "startArrowhead": null
+  },
+  {
+   "type": "arrow",
+   "id": "tick-intake",
+   "x": 112,
+   "y": 239.0,
+   "width": 48,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     48,
+     0
+    ]
+   ],
+   "strokeColor": "#868e96",
+   "strokeWidth": 2,
+   "endArrowhead": null,
+   "startArrowhead": null
+  },
+  {
+   "type": "rectangle",
+   "id": "f-intake",
+   "x": 162,
+   "y": 210,
+   "width": 230,
+   "height": 58,
+   "backgroundColor": "#ffd8a8",
+   "fillStyle": "solid",
+   "strokeColor": "#e8590c",
+   "strokeWidth": 2,
+   "roundness": {
+    "type": 3
+   },
+   "label": {
+    "text": "intake/",
+    "fontSize": 18,
+    "fontFamily": 1,
+    "strokeColor": "#1e1e1e"
+   }
+  },
+  {
+   "type": "text",
+   "id": "c-intake",
+   "x": 410,
+   "y": 218,
+   "text": "raw handoff + task",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "strokeColor": "#1e1e1e",
+   "textAlign": "left",
+   "originalText": "raw handoff + task",
+   "autoResize": true
+  },
+  {
+   "type": "text",
+   "id": "w-intake",
+   "x": 410,
+   "y": 242,
+   "text": "written by: Gun",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "strokeColor": "#5c5c5c",
+   "textAlign": "left",
+   "originalText": "written by: Gun",
+   "autoResize": true
+  },
+  {
+   "type": "arrow",
+   "id": "tick-spec",
+   "x": 112,
+   "y": 311.0,
+   "width": 48,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     48,
+     0
+    ]
+   ],
+   "strokeColor": "#868e96",
+   "strokeWidth": 2,
+   "endArrowhead": null,
+   "startArrowhead": null
+  },
+  {
+   "type": "rectangle",
+   "id": "f-spec",
+   "x": 162,
+   "y": 282,
+   "width": 230,
+   "height": 58,
+   "backgroundColor": "#fff3bf",
+   "fillStyle": "solid",
+   "strokeColor": "#f08c00",
+   "strokeWidth": 2,
+   "roundness": {
+    "type": 3
+   },
+   "label": {
+    "text": "01-spec/",
+    "fontSize": 18,
+    "fontFamily": 1,
+    "strokeColor": "#1e1e1e"
+   }
+  },
+  {
+   "type": "text",
+   "id": "c-spec",
+   "x": 410,
+   "y": 290,
+   "text": "project-spec.md",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "strokeColor": "#1e1e1e",
+   "textAlign": "left",
+   "originalText": "project-spec.md",
+   "autoResize": true
+  },
+  {
+   "type": "text",
+   "id": "w-spec",
+   "x": 410,
+   "y": 314,
+   "text": "written by: Leg 1",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "strokeColor": "#5c5c5c",
+   "textAlign": "left",
+   "originalText": "written by: Leg 1",
+   "autoResize": true
+  },
+  {
+   "type": "arrow",
+   "id": "tick-agents",
+   "x": 112,
+   "y": 383.0,
+   "width": 48,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     48,
+     0
+    ]
+   ],
+   "strokeColor": "#868e96",
+   "strokeWidth": 2,
+   "endArrowhead": null,
+   "startArrowhead": null
+  },
+  {
+   "type": "rectangle",
+   "id": "f-agents",
+   "x": 162,
+   "y": 354,
+   "width": 230,
+   "height": 58,
+   "backgroundColor": "#b2f2bb",
+   "fillStyle": "solid",
+   "strokeColor": "#2f9e44",
+   "strokeWidth": 2,
+   "roundness": {
+    "type": 3
+   },
+   "label": {
+    "text": "02-agents/",
+    "fontSize": 18,
+    "fontFamily": 1,
+    "strokeColor": "#1e1e1e"
+   }
+  },
+  {
+   "type": "text",
+   "id": "c-agents",
+   "x": 410,
+   "y": 362,
+   "text": "build-plan.md + agents/*.md",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "strokeColor": "#1e1e1e",
+   "textAlign": "left",
+   "originalText": "build-plan.md + agents/*.md",
+   "autoResize": true
+  },
+  {
+   "type": "text",
+   "id": "w-agents",
+   "x": 410,
+   "y": 386,
+   "text": "written by: Leg 2",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "strokeColor": "#5c5c5c",
+   "textAlign": "left",
+   "originalText": "written by: Leg 2",
+   "autoResize": true
+  },
+  {
+   "type": "arrow",
+   "id": "tick-build",
+   "x": 112,
+   "y": 455.0,
+   "width": 48,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     48,
+     0
+    ]
+   ],
+   "strokeColor": "#868e96",
+   "strokeWidth": 2,
+   "endArrowhead": null,
+   "startArrowhead": null
+  },
+  {
+   "type": "rectangle",
+   "id": "f-build",
+   "x": 162,
+   "y": 426,
+   "width": 230,
+   "height": 58,
+   "backgroundColor": "#a5d8ff",
+   "fillStyle": "solid",
+   "strokeColor": "#1971c2",
+   "strokeWidth": 2,
+   "roundness": {
+    "type": 3
+   },
+   "label": {
+    "text": "03-build/",
+    "fontSize": 18,
+    "fontFamily": 1,
+    "strokeColor": "#1e1e1e"
+   }
+  },
+  {
+   "type": "text",
+   "id": "c-build",
+   "x": 410,
+   "y": 434,
+   "text": "build-log.md + code",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "strokeColor": "#1e1e1e",
+   "textAlign": "left",
+   "originalText": "build-log.md + code",
+   "autoResize": true
+  },
+  {
+   "type": "text",
+   "id": "w-build",
+   "x": 410,
+   "y": 458,
+   "text": "written by: Leg 3",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "strokeColor": "#5c5c5c",
+   "textAlign": "left",
+   "originalText": "written by: Leg 3",
+   "autoResize": true
+  },
+  {
+   "type": "arrow",
+   "id": "tick-review",
+   "x": 112,
+   "y": 527.0,
+   "width": 48,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     48,
+     0
+    ]
+   ],
+   "strokeColor": "#868e96",
+   "strokeWidth": 2,
+   "endArrowhead": null,
+   "startArrowhead": null
+  },
+  {
+   "type": "rectangle",
+   "id": "f-review",
+   "x": 162,
+   "y": 498,
+   "width": 230,
+   "height": 58,
+   "backgroundColor": "#d0bfff",
+   "fillStyle": "solid",
+   "strokeColor": "#7048e8",
+   "strokeWidth": 2,
+   "roundness": {
+    "type": 3
+   },
+   "label": {
+    "text": "04-review/",
+    "fontSize": 18,
+    "fontFamily": 1,
+    "strokeColor": "#1e1e1e"
+   }
+  },
+  {
+   "type": "text",
+   "id": "c-review",
+   "x": 410,
+   "y": 506,
+   "text": "review-report.md",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "strokeColor": "#1e1e1e",
+   "textAlign": "left",
+   "originalText": "review-report.md",
+   "autoResize": true
+  },
+  {
+   "type": "text",
+   "id": "w-review",
+   "x": 410,
+   "y": 530,
+   "text": "written by: Leg 4",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "strokeColor": "#5c5c5c",
+   "textAlign": "left",
+   "originalText": "written by: Leg 4",
+   "autoResize": true
+  },
+  {
+   "type": "arrow",
+   "id": "tick-race",
+   "x": 112,
+   "y": 599.0,
+   "width": 48,
+   "height": 0,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     48,
+     0
+    ]
+   ],
+   "strokeColor": "#868e96",
+   "strokeWidth": 2,
+   "endArrowhead": null,
+   "startArrowhead": null
+  },
+  {
+   "type": "rectangle",
+   "id": "f-race",
+   "x": 162,
+   "y": 570,
+   "width": 230,
+   "height": 58,
+   "backgroundColor": "#f1f3f5",
+   "fillStyle": "solid",
+   "strokeColor": "#868e96",
+   "strokeWidth": 2,
+   "roundness": {
+    "type": 3
+   },
+   "label": {
+    "text": "race.json",
+    "fontSize": 18,
+    "fontFamily": 1,
+    "strokeColor": "#1e1e1e"
+   }
+  },
+  {
+   "type": "text",
+   "id": "c-race",
+   "x": 410,
+   "y": 578,
+   "text": "state file: status, current_leg",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "strokeColor": "#1e1e1e",
+   "textAlign": "left",
+   "originalText": "state file: status, current_leg",
+   "autoResize": true
+  },
+  {
+   "type": "text",
+   "id": "w-race",
+   "x": 410,
+   "y": 602,
+   "text": "written by: Gun sets it",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "strokeColor": "#5c5c5c",
+   "textAlign": "left",
+   "originalText": "written by: Gun sets it",
+   "autoResize": true
+  },
+  {
+   "type": "text",
+   "id": "d4-footer",
+   "x": 700,
+   "y": 612,
+   "text": "Rethinking Money",
+   "fontSize": 14,
+   "fontFamily": 1,
+   "strokeColor": "#5c5c5c",
+   "textAlign": "left",
+   "originalText": "Rethinking Money",
+   "autoResize": true
+  }
+ ],
+ "appState": {
+  "viewBackgroundColor": "#ffffff",
+  "gridSize": null
+ }
+}
