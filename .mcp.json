@@ -4,7 +4,7 @@
       "type": "http",
       "url": "https://api.excalidraw.com/api/v1/mcp",
       "headers": {
-        "Authorization": "Bearer ${EXCALIDRAW_API_KEY}"
+        "Authorization": "Bearer sk-Looc_mHxZK-UdBbm-IPkTZrpx65ARcQXcbRiZqzEMNgHDzQ1PRO9DU3TtXjQXZte"
       }
     }
   }
