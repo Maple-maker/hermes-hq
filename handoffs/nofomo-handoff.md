@@ -50,3 +50,14 @@ Last commit:
 - **Servers:** port 3001 (TS), port 3002 (Python MVP)
 - **Supabase:** `user_theses` + `thesis_matches` tables migrated, RLS enabled
 - **Build:** clean on xcodebuild
+
+## Pre-Launch Checklist (Ship Check)
+
+Before every TestFlight / App Store submission:
+- [ ] Custom 404 page + image fallbacks
+- [ ] Sentry error tracking configured
+- [ ] Form state preserved on backend error
+- [ ] All async calls have loading/error/empty states (skeleton loaders, retry buttons)
+- [ ] Error boundaries wrap all major views (no blank white screens)
+
+See: `skills/ship-check/SKILL.md` for full details + Claude Code prompts.
